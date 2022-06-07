@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Sopranos Characters API</h1>
+    <div class="image">
+    <img src="assets/sopranos-logo.png" alt="">
+    </div>  
+    <h1 class="title">Sopranos Characters API</h1>
+    <div class="button">
     <button>Character Name</button>
     <input type="text">
+    </div>
+    <div class="main">
     <h2>Character Name:</h2>
     <h3 id="name"></h3>
     <h2>Aliases:</h2>
@@ -20,6 +26,13 @@
     <h3 id="last"></h3>
     <h2> Portrayed By:</h2>
     <h3 id ='portrayed'></h3>
+    </div>
+
+    <div id ='music'>
+    <audio controls autoplay loop>
+        <source src="assets/theme-song-trim.mp3" type="audio/mpeg">
+    </audio>
+    </div>
 
     <script src='js/main.js'></script>
 </body>
