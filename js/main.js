@@ -7,6 +7,7 @@ async function apiRequest(){
         const data = await response.json()
 
         console.log(data)
+        document.getElementById('photo').src = data.url
         document.getElementById('name').innerHTML = data.name
         document.getElementById('alias').innerHTML = data.aliases
         document.getElementById('first').innerHTML = data.firstEpisode
