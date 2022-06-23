@@ -8,7 +8,7 @@ async function apiRequest(){
 
         console.log(data)
         document.getElementById('photo').src = data.url
-        document.getElementById('name').innerHTML = data.name
+        document.getElementById('name').innerHTML = data.fullName
         document.getElementById('alias').innerHTML = data.aliases
         document.getElementById('first').innerHTML = data.firstEpisode
         document.getElementById('last').innerHTML = data.lastEpisode
